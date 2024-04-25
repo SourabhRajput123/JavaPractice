@@ -1,3 +1,5 @@
+package Week_3.Inheritence;
+
 public class calc {
 
     public int add(int n1, int n2){
