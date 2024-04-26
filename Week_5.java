@@ -1,5 +1,5 @@
 
-
+import java.util.Scanner;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -7,13 +7,19 @@ import java.io.InputStreamReader;
 public class Week_5{
     public static void main(String[] args) throws IOException {
         
-        InputStreamReader in = new InputStreamReader(System.in);
-        BufferedReader bf = new BufferedReader(in);
-        int num = Integer.parseInt(bf.readLine());
-        System.out.println("No. is="+num);
+    //     InputStreamReader in = new InputStreamReader(System.in);
+    //     BufferedReader bf = new BufferedReader(in);
+    //     int num = Integer.parseInt(bf.readLine());
+    //     System.out.println("No. is="+num);
+    //     bf.close();
+    // }
+    //Easy way
+    Scanner sc= new Scanner(System.in);
+    int num = sc.nextInt();
+    System.out.println("No. is="+num);
+    sc.close();
     }
 }
-
 // In this lecture we are discussing about different ways to take input in java:
 // how to take input from user :
 // in C++ we use  cin
