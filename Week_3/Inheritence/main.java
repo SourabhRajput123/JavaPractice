@@ -1,4 +1,4 @@
-import Week_3.Inheritence.advCalc;
+package Week_3.Inheritence;
 public class main {
     public static void main(String[] args) {
         advCalc obj = new advCalc();
